@@ -1,4 +1,4 @@
-Nynorsk Language Module for glossaries Package
+Norsk Language Module for glossaries Package
 
 Author: Jakob Stendahl
 
@@ -14,6 +14,8 @@ where TEXMF is the texmf root directory.
 
 The glossaries package will automatically load this module if it is
 required.
+
+Compile using `make` or just `latex glossaries-norsk.ins`.
 
 This material is subject to the LaTeX Project Public License.
 See http://www.ctan.org/license/lppl1.3
