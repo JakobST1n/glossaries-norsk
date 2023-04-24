@@ -1,12 +1,10 @@
 Nynorsk Language Module for glossaries Package
 
-Author: Eirik Haustveit
-	www.switchcraft.org
+Author: Jakob Stendahl
 
 Based on package by:
-
-	Nicola Talbot
-        www.dickimaw-books.com
+	Eirik Haustveit
+	www.switchcraft.org
 
 To install: copy *.ldf and *.dict to
 

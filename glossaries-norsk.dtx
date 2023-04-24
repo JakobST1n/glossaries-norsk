@@ -1,11 +1,11 @@
 %\iffalse
-% glossaries-nynorsk.dtx generated using makedtx version 1.1 (c) Eirik Haustveit
+% glossaries-norsk.dtx generated using makedtx version 1.1 (c) Jakob Haustveit
 % Command line args:
 %   -src "(.*.ldf)=>\1"
 %   -src "(.*.dict)=>\1"
 %   -doc "glossaries-module.tex"
-%   -author "Eirik Haustveit"
-%   glossaries-nynorsk
+%   -author "Jakob Stendahl"
+%   glossaries-norsk
 % Created on 2020/05/16 14:20
 %\fi
 %\iffalse
@@ -29,7 +29,7 @@
 %\fi
 % \iffalse
 % Doc-Source file to use with LaTeX2e
-% Copyright (C) 2020 Eirik Haustveit, all rights reserved.
+% Copyright (C) 2023 Jakob Stendahl, all rights reserved.
 % \fi
 % \iffalse
 %<*driver>
@@ -38,12 +38,12 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
-\title{Glossaries Language Module: glossaries-nynorsk}
-\author{Eirik Haustveit}
-\date{version 1.0 (2020-05-16)}
+\title{Glossaries Language Module: glossaries-norsk}
+\author{Jakob Stendahl}
+\date{version 1.0 (2023-04-24)}
 
 \begin{document}
-\DocInput{glossaries-nynorsk.dtx}
+\DocInput{glossaries-norsk.dtx}
 \end{document}
 %</driver>
 %\fi
@@ -58,14 +58,14 @@
 %\section{The Code}
 %\iffalse
 %    \begin{macrocode}
-%<*glossaries-nynorsk.ldf>
+%<*glossaries-norsk.ldf>
 %    \end{macrocode}
 %\fi
-%\subsection{glossaries-nynorsk.ldf}
+%\subsection{glossaries-norsk.ldf}
 %    \begin{macrocode}
-\ProvidesGlossariesLang{nynorsk}[2020/05/16 v1.0]
+\ProvidesGlossariesLang{norsk}[2020/05/16 v1.0]
 
-\glsifusedtranslatordict{Nynorsk}
+\glsifusedtranslatordict{norsk}
 {%
   \addglossarytocaptions{\CurrentTrackedLanguage}%
   \addglossarytocaptions{\CurrentTrackedDialect}%
@@ -73,34 +73,34 @@
 {%
   \@ifpackageloaded{polyglossia}%
   {%
-    \newcommand*{\glossariescaptionsnynorsk}{%
-      \renewcommand*{\glossaryname}{\textnynorsk{Ordforklaringar}}%
-      \renewcommand*{\acronymname}{\textnynorsk{Forkortingar}}%
-      \renewcommand*{\entryname}{\textnynorsk{Notasjon}}%
-      \renewcommand*{\descriptionname}{\textnynorsk{Beskriving}}%
-      \renewcommand*{\symbolname}{\textnynorsk{Symbol}}%
-      \renewcommand*{\pagelistname}{\textnynorsk{Side}}%
-      \renewcommand*{\glssymbolsgroupname}{\textnynorsk{Symbol}}%
-      \renewcommand*{\glsnumbersgroupname}{\textnynorsk{Tal}}%
+    \newcommand*{\glossariescaptionsnorsk}{%
+      \renewcommand*{\glossaryname}{\textnorsk{Ordforklaringer}}%
+      \renewcommand*{\acronymname}{\textnorsk{Forkortelser}}%
+      \renewcommand*{\entryname}{\textnorsk{Notasjon}}%
+      \renewcommand*{\descriptionname}{\textnorsk{Beskrivelse}}%
+      \renewcommand*{\symbolname}{\textnorsk{Symbol}}%
+      \renewcommand*{\pagelistname}{\textnorsk{Side}}%
+      \renewcommand*{\glssymbolsgroupname}{\textnorsk{Symbol}}%
+      \renewcommand*{\glsnumbersgroupname}{\textnorsk{Tall}}%
     }%
   }%
   {%
-    \newcommand*{\glossariescaptionsnynorsk}{%
-      \renewcommand*{\glossaryname}{Ordforklaringar}%
-      \renewcommand*{\acronymname}{Forkortingar}%
+    \newcommand*{\glossariescaptionsnorsk}{%
+      \renewcommand*{\glossaryname}{Ordforklaringer}%
+      \renewcommand*{\acronymname}{Forkortelser}%
       \renewcommand*{\entryname}{Notasjon}%
-      \renewcommand*{\descriptionname}{Beskriving}%
+      \renewcommand*{\descriptionname}{Beskrivelse}%
       \renewcommand*{\symbolname}{Symbol}%
       \renewcommand*{\pagelistname}{Side}%
       \renewcommand*{\glssymbolsgroupname}{Symbol}%
-      \renewcommand*{\glsnumbersgroupname}{Tal}%
+      \renewcommand*{\glsnumbersgroupname}{Tall}%
     }%
   }%
   \ifcsdef{captions\CurrentTrackedDialect}
   {%
     \csappto{captions\CurrentTrackedDialect}%
     {%
-      \glossariescaptionsnynorsk
+      \glossariescaptionsnorsk
     }%
   }%
   {%
@@ -108,18 +108,18 @@
     {
       \csappto{captions\CurrentTrackedLanguage}%
       {%
-        \glossariescaptionsnynorsk
+        \glossariescaptionsnorsk
       }%
     }%
     {%
     }%
   }%
-  \glossariescaptionsnynorsk
+  \glossariescaptionsnorsk
 }
 %    \end{macrocode}
 % General default plural suffix:
 %    \begin{macrocode}
-\renewcommand*{\glspluralsuffix}{s}
+\renewcommand*{\glspluralsuffix}{e}
 %    \end{macrocode}
 % Acronym default plural suffix:
 %    \begin{macrocode}
@@ -132,7 +132,7 @@
 %    \end{macrocode}
 %\iffalse
 %    \begin{macrocode}
-%</glossaries-nynorsk.ldf>
+%</glossaries-norsk.ldf>
 %    \end{macrocode}
 %\fi
 %\iffalse
