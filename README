@@ -8,7 +8,7 @@ Based on package by:
 
 To install: copy *.ldf and *.dict to
 
-TEXMF/tex/latex/glossaries-nynorsk/
+TEXMF/tex/latex/glossaries-norsk/
 
 where TEXMF is the texmf root directory.
 
