@@ -1,4 +1,11 @@
-Norsk Language Module for glossaries Package
+Norsk Bokmål Language Module for glossaries Package
+
+This adds Norwegian Bokmål translations for the glossaries package, and will
+automatically be loaded when the document/babel-package has the option `norsk`.
+
+The package this is based on (glossaries-nynorsk), adds the same translations
+for Norsk Nynorsk. That package will be loaded when the `nynorsk` option is
+used as mentioned before.
 
 Author: Jakob Stendahl
 
@@ -13,7 +20,7 @@ TEXMF/tex/latex/glossaries-norsk/
 where TEXMF is the texmf root directory.
 
 The glossaries package will automatically load this module if it is
-required.
+required, as mentioned previously.
 
 Compile using `make` or just `latex glossaries-norsk.ins`.
 
